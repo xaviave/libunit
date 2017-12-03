@@ -1,41 +1,21 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   02_medium_strlen.c                               .::    .:/ .      .::   */
+/*   01_test_ok.c                                     .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
-/*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
+/*   By: nbettach <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
-/*   Created: 2017/12/02 15:47:33 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 17:20:35 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Created: 2017/12/03 09:37:59 by nbettach     #+#   ##    ##    #+#       */
+/*   Updated: 2017/12/03 12:16:33 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
-#include "../real_test.h"
+#include "tests.h"
 
-static char	*fill(char *test)
+int		test_ok(void)
 {
-	int		i;
-
-	i = 0;
-	if (!(test = (char *)malloc(sizeof(char) * (100001))))
-		return (NULL);
-	while (i < 100000)
-	{
-		test[i] = 'a';
-		i++;
-	}
-	test[i] = '\0';
-	return (test);
-}
-
-int			medium_strlen(void)
-{
-	char	*test;
-
-	test = NULL;
-	test = fill(test);
-	if (strlen(test) == ft_strlen(test))
+	if ((1))
 		return (0);
 	else
 		return (-1);

@@ -6,7 +6,7 @@
 /*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/02 18:47:06 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 11:56:49 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/03 16:57:22 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -19,7 +19,7 @@ int		launch_atoi(void)
 	int			result_test;
 
 	lst = NULL;
-	ft_putendl(PIN"\n\n----------------------------------------------------------"RES);
+	ft_putendl(PIN"\n-----------------------------------------------------"RES);
 	ft_putstr(PIN"                         ATOI \n\n"RES);
 	lst_add("test_basic1", &test_basic1, &lst);
 	lst_add("test_basic2", &test_basic2, &lst);

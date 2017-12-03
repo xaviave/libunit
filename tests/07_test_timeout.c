@@ -1,27 +1,21 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   main.c                                           .::    .:/ .      .::   */
+/*   07_test_timeout.c                                .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
-/*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
+/*   By: nbettach <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
-/*   Created: 2017/12/02 17:16:23 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 16:59:07 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Created: 2017/12/03 10:03:56 by nbettach     #+#   ##    ##    #+#       */
+/*   Updated: 2017/12/03 13:33:01 by nbettach    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
-#include "real_test.h"
+#include "tests.h"
 
-int		main(void)
+int		test_timeout(void)
 {
-	int	result;
-
-	result = 0;
-	result += launch_strlen();
-	result += launch_atoi();
-	if (result == 0)
-		return (0);
-	else
-		return (-1);
+	while ((1))
+		;
+	return (0);
 }

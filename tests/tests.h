@@ -1,27 +1,28 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   main.c                                           .::    .:/ .      .::   */
+/*   tests.h                                          .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
-/*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
+/*   By: nbettach <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
-/*   Created: 2017/12/02 17:16:23 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 16:59:07 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Created: 2017/12/03 10:12:57 by nbettach     #+#   ##    ##    #+#       */
+/*   Updated: 2017/12/03 12:15:23 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
-#include "real_test.h"
+#ifndef TESTS_H
+# define TESTS_H
 
-int		main(void)
-{
-	int	result;
+# include "../framework/exec.h"
 
-	result = 0;
-	result += launch_strlen();
-	result += launch_atoi();
-	if (result == 0)
-		return (0);
-	else
-		return (-1);
-}
+int		error_launch(void);
+int		test_ok(void);
+int		test_ko(void);
+int		test_segf(void);
+int		test_bus(void);
+int		test_abort(void);
+int		test_floating(void);
+int		test_timeout(void);
+
+#endif

@@ -6,7 +6,7 @@
 /*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/02 11:22:42 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 11:59:50 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/03 16:57:48 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -31,7 +31,7 @@ typedef struct			s_libunit
 	struct s_libunit	*next;
 }						t_libunit;
 
-void					lst_add(char *str,int (*f)(void), t_libunit **lst);
+void					lst_add(char *str, int (*f)(void), t_libunit **lst);
 int						fork_test(t_libunit **lst);
 
 #endif

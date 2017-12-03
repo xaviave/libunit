@@ -6,13 +6,13 @@
 /*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/02 13:35:14 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/02 17:56:09 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/03 16:55:24 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
-#ifndef _TEST_H
-# define _TEST_H
+#ifndef _REAL_TEST_H
+# define _REAL_TEST_H
 
 # include "../framework/exec.h"
 
