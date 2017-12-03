@@ -6,7 +6,7 @@
 /*   By: nbettach <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/02 20:47:16 by nbettach     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 16:55:59 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/03 18:56:38 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -19,8 +19,6 @@ int				error_launch(void)
 	int			result_test;
 
 	lst = NULL;
-	ft_putstr("\n----------------------------------------------------------");
-	ft_putstr("                         TESTS \n\n");
 	lst_add("test_ok", &test_ok, &lst);
 	lst_add("test_ko", &test_ko, &lst);
 	lst_add("test_segf", &test_segf, &lst);

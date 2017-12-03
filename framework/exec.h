@@ -6,7 +6,7 @@
 /*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/02 11:22:42 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 16:57:48 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/03 17:46:50 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -23,6 +23,7 @@
 # define GRE "\033[1;32m"
 # define BLU "\033[1;34m"
 # define PIN "\033[1;35m"
+# define YEL "\033[1;33m"
 
 typedef struct			s_libunit
 {

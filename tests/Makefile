@@ -6,7 +6,7 @@
 #    By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2017/12/02 11:05:55 by xamartin     #+#   ##    ##    #+#        #
-#    Updated: 2017/12/03 16:41:49 by xamartin    ###    #+. /#+    ###.fr      #
+#    Updated: 2017/12/03 18:25:32 by xamartin    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -47,8 +47,7 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	@make -C ../libft && make -C ../framework
 	@$(CC) $(CFLAGS) $(OBJS) $(LIBFT) $(FRAMEWORK) -I $(INCLUDE) -o $(NAME)
-	@cd .. && touch test_test_log.txt && cd tests
-	@./$(NAME) > ../test_test_log.txt
+	@clear && echo "\033[32m -------------------\nLIBUNIT TEST COMPLIED\n -------------------\n\033[0m"	
 
 ./%.o:./%.c
 	@$(CC) $(CFLAGS) -o $@ -c $<

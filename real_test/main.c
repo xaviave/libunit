@@ -6,7 +6,7 @@
 /*   By: xamartin <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/02 17:16:23 by xamartin     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/03 16:59:07 by xamartin    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/03 19:11:56 by xamartin    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -17,6 +17,9 @@ int		main(void)
 {
 	int	result;
 
+	ft_putendl(PIN"▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿▾▿"RES);
+	ft_putendl(PIN"⎥        1️⃣  0️⃣  1️⃣  - 〔 LIBUNIT TEST 〕          ⎪"RES);
+	ft_putendl(PIN"∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸∸"RES);
 	result = 0;
 	result += launch_strlen();
 	result += launch_atoi();
